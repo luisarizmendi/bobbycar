@@ -1,12 +1,12 @@
 apiVersion: bobbycar.redhat.com/v1alpha1
 kind: BobbycarZone
 metadata:
-  name: de-ffm-env
+  name: bobbycar-madrid
 spec:
-  name: "Frankfurt Environmental Zone"
+  name: "Madrid Environmental Zone"
   type: "circle"
   priority: 10
   position:
-    lat: 50.1146997
-    lng: 8.6185411
+    lat: 40.4167767
+    lng: -3.703623
   radius: 5000  

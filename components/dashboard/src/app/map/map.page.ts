@@ -16,7 +16,7 @@ export class MapPage implements OnInit {
     map: google.maps.Map;
     marker: google.maps.Marker;
     infowindow: google.maps.InfoWindow;
-    initialPosition = { lat: 50.1146997, lng: 8.6185411 };
+    initialPosition = { lat: 40.4167767, lng: -3.703623 };
     bobbycars = new Map();
     zones = [];
     searchArea: google.maps.Circle;

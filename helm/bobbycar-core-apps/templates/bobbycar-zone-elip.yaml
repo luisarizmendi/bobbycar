@@ -1,0 +1,12 @@
+apiVersion: bobbycar.redhat.com/v1alpha1
+kind: BobbycarZone
+metadata:
+  name: bobbycar-plaza-eliptica
+spec:
+  name: "Plaza Eliptica Environmental Zone"
+  type: "circle"
+  priority: 20
+  position:
+    lat: 40.3851603
+    lng: -3.7185173
+  radius: 500  

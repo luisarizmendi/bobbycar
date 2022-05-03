@@ -23,7 +23,7 @@ export class CarDetailPage implements OnInit {
 
   private chart: am4charts.XYChart;
   map: google.maps.Map;
-  initialPosition = { lat: 50.1146997, lng: 8.6185411 };
+  initialPosition = { lat: 40.4167767, lng: -3.703623 };
   carId = '';
   carMetric = { driverId: '', manufacturer: '', model: '', co2: '', fuel: '', gear: '', rpm: '', speed: '', zone: 'Default Zone', vin: '' };
   marker: google.maps.Marker;
